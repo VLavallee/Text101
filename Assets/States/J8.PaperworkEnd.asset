@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a13799c646e02e49a7106b1a6e4e008, type: 3}
+  m_Name: J8.PaperworkEnd
+  m_EditorClassIdentifier: 
+  storyText: 'A boat worker overhears the conversation and interjects that the animal
+    cannot be taken off the island because it''s an endangered species. You''ll have
+    to fill out some paperwork but he believes your story and you wont be in any
+    trouble. After that, you and your friends head off with one hell of a story to
+    tell the kids one day.
+
+
+
+    You Win!
+
+
+
+    1. Play Again?
+
+
+    2. Back to
+    Welcome Screen'
+  nextStates:
+  - {fileID: 11400000, guid: 0ad07d02e810e8d42b55d9dfe7b8cf24, type: 2}
+  - {fileID: 11400000, guid: 1e564e38594d1224cbc3743dc9d409c8, type: 2}

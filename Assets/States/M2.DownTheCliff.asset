@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a13799c646e02e49a7106b1a6e4e008, type: 3}
+  m_Name: M2.DownTheCliff
+  m_EditorClassIdentifier: 
+  storyText: "You think the pathway isn't as dangerous as it appears and begin following
+    it down, careful to keep your body as close to the cliffside as possible. \r\n\r\nThere's
+    a few close calls, but you keep following the trail until it leads you into the
+    valley below, where you enter the canopy of the trees.\r\n\r\n\r\n1. Continue."
+  nextStates:
+  - {fileID: 11400000, guid: 4757f8ba311600941a0869dc38527edc, type: 2}

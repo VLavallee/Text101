@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a13799c646e02e49a7106b1a6e4e008, type: 3}
+  m_Name: A3.MountainPath
+  m_EditorClassIdentifier: 
+  storyText: "You begin the trek toward the mountain, knowing it could be a while
+    before you find water. \r\n\r\nAn hour up the path you find a small lookout point
+    and try to get your bearings. Despite your vantage point you can only see the
+    tops of trees from here. You take another sip of your water. Almost empty.\r\n\r\n\nWhat
+    should you do?\r\n\r\n\n1. Keep following the path up the mountain. \r\n\r\n2.
+    Turn around and go back down. "
+  nextStates:
+  - {fileID: 11400000, guid: 3824c221fe6c95446ac9423d40d8ced9, type: 2}
+  - {fileID: 11400000, guid: f0dfe6b496849d54bbe9dc7f12e2c467, type: 2}

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a13799c646e02e49a7106b1a6e4e008, type: 3}
+  m_Name: J3.ContinueToTrail
+  m_EditorClassIdentifier: 
+  storyText: "You leave the animal where it lay. You know it's body will feed the
+    jungle, and you don't want to be disrespectful. \r\n\r\nIt's time to get going..\n\r\n\n1.
+    Continue."
+  nextStates:
+  - {fileID: 11400000, guid: 343757d6a319ead45a4b1ecbb43f9314, type: 2}

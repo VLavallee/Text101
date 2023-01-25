@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a13799c646e02e49a7106b1a6e4e008, type: 3}
+  m_Name: G2.FindTheDocksTheEnd
+  m_EditorClassIdentifier: 
+  storyText: 'Your walk along the beach is a relaxing end to your little adventure.
+    You think about the time you''ve had and reflect on your choices. Before you
+    know it, you see the familiar sight of your ship again. Your pals are all here
+    and can''t wait to hear about the day you had.
+
+
+
+    You Win!
+
+
+
+    1. Play
+    Again?
+
+
+    2. Back To Welcome Screen.'
+  nextStates:
+  - {fileID: 11400000, guid: 0ad07d02e810e8d42b55d9dfe7b8cf24, type: 2}
+  - {fileID: 11400000, guid: 1e564e38594d1224cbc3743dc9d409c8, type: 2}

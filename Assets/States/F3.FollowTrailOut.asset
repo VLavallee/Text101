@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a13799c646e02e49a7106b1a6e4e008, type: 3}
+  m_Name: F3.FollowTrailOut
+  m_EditorClassIdentifier: 
+  storyText: "You think it might be a good idea to continue following the trail and
+    hope it'll lead you out of this place. \n\n\n1. Continue."
+  nextStates:
+  - {fileID: 11400000, guid: e0f4919f14c6aef4a8c017218d69073e, type: 2}

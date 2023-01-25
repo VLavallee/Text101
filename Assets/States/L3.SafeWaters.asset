@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a13799c646e02e49a7106b1a6e4e008, type: 3}
+  m_Name: L3.SafeWaters
+  m_EditorClassIdentifier: 
+  storyText: "You rest on the trail under the shade of the trees, and watch the river
+    for any signs of danger. \r\n\r\nAfter you're sure there's nothing to be afraid
+    of, you head over and fill up on water and rest your feet in the cool water before
+    heading back to the trail and moving on. \n\n\n1. Continue."
+  nextStates:
+  - {fileID: 11400000, guid: 343757d6a319ead45a4b1ecbb43f9314, type: 2}

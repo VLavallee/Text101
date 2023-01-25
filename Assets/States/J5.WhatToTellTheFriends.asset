@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a13799c646e02e49a7106b1a6e4e008, type: 3}
+  m_Name: J5.WhatToTellTheFriends
+  m_EditorClassIdentifier: 
+  storyText: 'An hour or so later you see a clearing and find yourself back at the
+    beach. You triumphantly carry the dead jaguar back to the docks and your friends
+    can''t believe what they are seeing. They ask how this all happened.
+
+
+
+    What
+    do you tell them?
+
+
+
+    1. It was self defense.
+
+
+
+    2. You felt like hunting
+    the beast.'
+  nextStates:
+  - {fileID: 11400000, guid: e00a09e3df3115d42ae92aa38f439efe, type: 2}
+  - {fileID: 11400000, guid: b0fcbd625925bdc40a965a61dd2c3b0c, type: 2}

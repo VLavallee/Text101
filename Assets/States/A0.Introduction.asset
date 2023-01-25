@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a13799c646e02e49a7106b1a6e4e008, type: 3}
+  m_Name: A0.Introduction
+  m_EditorClassIdentifier: 
+  storyText: "Welcome to Island Escape!\n\nIn this game you are a lost traveller
+    on a tropical island, trying to find your way back to your ship.\n\nYou'll be
+    given a number of choices, which you can choose by pressing the corresponding
+    key number. \n\nChoose Carefully!\n\n\nPress the \"1\" key to continue.\n\nOr\n\nPress
+    the \"2\" key to see credits."
+  nextStates:
+  - {fileID: 11400000, guid: 0ad07d02e810e8d42b55d9dfe7b8cf24, type: 2}
+  - {fileID: 11400000, guid: be96bcd70aad04e41b01b2de8a185f3a, type: 2}

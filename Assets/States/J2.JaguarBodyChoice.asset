@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a13799c646e02e49a7106b1a6e4e008, type: 3}
+  m_Name: J2.JaguarBodyChoice
+  m_EditorClassIdentifier: 
+  storyText: "You sit down for a few moments and enjoy some fresh water from the
+    canteen. \r\n\r\nFeeling like a hero you are ready to get out of here and continue
+    looking for the way out. \r\n\r\n\nWhat should you do with the jaguar?\r\n\r\n\n1.
+    Leave the animal.\n\r\n2. Take the carcass with you."
+  nextStates:
+  - {fileID: 11400000, guid: 8cd2cec0934cbcc4395859c49deca11d, type: 2}
+  - {fileID: 11400000, guid: 0bd38cfb3e4023f4ba707902608f4732, type: 2}

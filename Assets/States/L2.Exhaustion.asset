@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a13799c646e02e49a7106b1a6e4e008, type: 3}
+  m_Name: L2.Exhaustion
+  m_EditorClassIdentifier: 
+  storyText: 'Your legs feel like jelly and somehow the heat seems to have gotten
+    even worse. You nearly collapse before you come around a corner on the trail
+    and see a river not far in the distance.
+
+
+
+    What do you do?
+
+
+
+    1. Go
+    to the river to cool off immediately.
+
+
+    2. Rest on the trail first.'
+  nextStates:
+  - {fileID: 11400000, guid: a006a0eeb301e1a44a599e3775bbd0d2, type: 2}
+  - {fileID: 11400000, guid: 59c1dcdcc9d763a4b86d85b337f6c2eb, type: 2}

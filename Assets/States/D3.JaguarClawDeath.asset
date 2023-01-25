@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a13799c646e02e49a7106b1a6e4e008, type: 3}
+  m_Name: D3.JaguarClawDeath
+  m_EditorClassIdentifier: 
+  storyText: "You turn and run as fast as you can. You hear the jaguar behind you
+    and then feel it's claws grab onto you from behind. You scream and fight for
+    your life enough that the jaguar backs away, but your wounds are so great you
+    start to lose consciousness. \n\nThe last thing you see is the jaguar licking
+    its lips. \n\n\nGame Over.\n\n\n1. Try Again\n\n2. Give Up"
+  nextStates:
+  - {fileID: 11400000, guid: 0ad07d02e810e8d42b55d9dfe7b8cf24, type: 2}
+  - {fileID: 11400000, guid: 1e564e38594d1224cbc3743dc9d409c8, type: 2}

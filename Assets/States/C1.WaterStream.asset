@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a13799c646e02e49a7106b1a6e4e008, type: 3}
+  m_Name: C1.WaterStream
+  m_EditorClassIdentifier: 
+  storyText: 'You''ve come too far to turn back now. You continue to follow the trail
+    for some time before you come upon a small stream of water trickling out of a
+    cliff-face. It''ll do under these circumstances. You have your share of water
+    and fill the canteen to the brim.
+
+
+
+
+    1. Continue.
+
+
+'
+  nextStates:
+  - {fileID: 11400000, guid: e5a9fc796b55e864f960f16bbd2338f3, type: 2}

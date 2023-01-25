@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a13799c646e02e49a7106b1a6e4e008, type: 3}
+  m_Name: F1.RunFromJaguarDeath
+  m_EditorClassIdentifier: 
+  storyText: "You run the other way and run back toward the jungle. You see a large
+    tree and quickly try to climb up, but the jaguar has already got a paw on your
+    leg. You try to kick it off but it's of little use, and it quickly pulls you
+    down to the ground. The last thing you hear is the sound of your windpipe being
+    crushed by it's powerful jaws. \r\n\r\n\nGame Over.\n\n\n1. Try Again\n\n2. Give
+    Up"
+  nextStates:
+  - {fileID: 11400000, guid: 0ad07d02e810e8d42b55d9dfe7b8cf24, type: 2}
+  - {fileID: 11400000, guid: 1e564e38594d1224cbc3743dc9d409c8, type: 2}

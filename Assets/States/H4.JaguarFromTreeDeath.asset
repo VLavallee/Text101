@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a13799c646e02e49a7106b1a6e4e008, type: 3}
+  m_Name: H4.JaguarFromTreeDeath
+  m_EditorClassIdentifier: 
+  storyText: 'Your rest is put to an end rather abruptly when the jaguar leaps down
+    onto you from the trees above. You try to fight it off but its power is too much.
+    The last thought in your mind is how incredible the pain of being eaten alive
+    is.
+
+
+
+    Game Over.
+
+
+
+    1. Try Again?
+
+
+    2. Give Up.'
+  nextStates:
+  - {fileID: 11400000, guid: 0ad07d02e810e8d42b55d9dfe7b8cf24, type: 2}
+  - {fileID: 11400000, guid: 1e564e38594d1224cbc3743dc9d409c8, type: 2}

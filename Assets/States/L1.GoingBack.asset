@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a13799c646e02e49a7106b1a6e4e008, type: 3}
+  m_Name: L1.GoingBack
+  m_EditorClassIdentifier: 
+  storyText: "You decide it's better to head down the familiar trail and make for
+    the jungle. You're well hydrated, but have been walking all day in almost unbearable
+    heat. \r\n\r\nSeveral hours pass before you find your way down and take the trail
+    heading into the jungle. \r\n\r\n\n1. Continue."
+  nextStates:
+  - {fileID: 11400000, guid: 6f545230fbe0d4547b595e3567ed3ea8, type: 2}

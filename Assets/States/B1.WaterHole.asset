@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a13799c646e02e49a7106b1a6e4e008, type: 3}
+  m_Name: B1.WaterHole
+  m_EditorClassIdentifier: 
+  storyText: "Jaguar! It's drinking and doesn't seem to notice you yet. \r\n\r\n\nWhat
+    should you do?\r\n\r\n\n1. Fill the rest of your water and leave quietly. \r\n\n2.
+    Leave now and only take the water you have.\r\n\n3. Run."
+  nextStates:
+  - {fileID: 11400000, guid: 2f2a252218b1acc4387bbe0015fc9b2c, type: 2}
+  - {fileID: 11400000, guid: 7dc93dcf961d48341931cdd2eab1dabb, type: 2}
+  - {fileID: 11400000, guid: 750310a2be58a2f4da7d2b52a8d97789, type: 2}

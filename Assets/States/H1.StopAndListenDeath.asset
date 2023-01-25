@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a13799c646e02e49a7106b1a6e4e008, type: 3}
+  m_Name: H1.StopAndListenDeath
+  m_EditorClassIdentifier: 
+  storyText: 'You stop and listen carefully to your surroundings. You hear some rustling
+    in the bush just off the trail behind you. Then you see the eyes. Jumping out
+    from the foliage, it appears the jaguar had been following you all this time.
+    It''s taken your stopping as an invitation to attack. You try to turn to run
+    but are frozen with fear. The jaguar makes short work of your squishy human body,
+    and soon you are its dinner.
+
+
+
+    Game Over.
+
+
+
+    1. Play Again?
+
+
+    2.
+    Back To Welcome Screen'
+  nextStates:
+  - {fileID: 11400000, guid: 0ad07d02e810e8d42b55d9dfe7b8cf24, type: 2}
+  - {fileID: 11400000, guid: 1e564e38594d1224cbc3743dc9d409c8, type: 2}
